@@ -1,11 +1,13 @@
-#-*- coding:utf-8 -*-
-# fizzbuzz問題を解くプログラム
-(1..100).map do |num|
-  s = ""
-  s += "fizz" if num % 3 == 0
-  s += "buzz" if num % 5 == 0
-  s += num.to_s if s.empty?
-  s
-end.each do |str|
-  puts str
-end
+class Fizzbuzz
+	 def calculate number
+	 	if number % 3 == 0 && number % 5 == 0
+	 		'fizzbuzz'
+	 	elsif number % 3 == 0
+	 		'fizz'
+	 	elsif number % 5 == 0
+	 		'buzz'
+	 	else
+	 	  number
+	 	end
+	  end
+	end
