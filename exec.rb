@@ -9,3 +9,6 @@
 end.each do |str|
   puts str
 end
+
+
+#New function
