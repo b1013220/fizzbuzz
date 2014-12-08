@@ -10,4 +10,11 @@ end.each do |str|
   puts str
 end
 
-#new functions
+
+
+
+
+
+
+
+new functions
